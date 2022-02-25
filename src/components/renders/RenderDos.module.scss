@@ -1,0 +1,37 @@
+@import '../../index.scss';
+
+.card {
+  width: 250px;
+  text-align: left;
+  margin: 0;
+  padding: 16px;
+  border: 1px solid rgba(204, 204, 204, 1);
+
+  blockquote {
+    margin: 0 0 1rem 0;
+    font-size: 18px;
+
+    em {
+      color: $color-volanta;
+    }
+  }
+
+  figcaption {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    img {
+      height: 48px;
+      width: 48px;
+      margin-right: 1rem;
+      border-radius: 50%;
+      background-color: rgba(204, 204, 204, 1);
+    }
+
+    div {
+      margin-right: auto;
+      font-size: 16px;
+    }
+  }
+}

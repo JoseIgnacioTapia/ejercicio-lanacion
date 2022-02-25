@@ -1,0 +1,38 @@
+@import '../../index.scss';
+
+.card {
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+
+  figure {
+    margin: 0;
+
+    img {
+      display: block;
+      background-color: $color-volanta;
+      width: 280px;
+      height: 186px;
+    }
+  }
+  section {
+    width: 100%;
+
+    h2 {
+      display: block;
+      font-size: $card-title;
+
+      em {
+        color: $color-volanta;
+        display: inline;
+      }
+    }
+
+    strong {
+      margin-bottom: 0.5rem;
+      font-size: 0.875rem;
+      line-height: 1rem;
+      font-weight: bold;
+    }
+  }
+}

@@ -1,0 +1,45 @@
+@import '../../index.scss';
+
+.card {
+  width: 330px;
+  height: 465px;
+  border: 1px solid rgba(204, 204, 204, 1);
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  position: relative;
+
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+
+    em {
+      color: $color-volanta;
+      display: inline;
+    }
+  }
+
+  figcaption {
+    img {
+      height: 120px;
+      width: 120px;
+      border-radius: 50%;
+      background-color: rgba(204, 204, 204, 1);
+    }
+
+    .author {
+      font-family: Arial;
+      margin: 0.5rem 0;
+    }
+  }
+  .border {
+    position: absolute;
+    height: 1px;
+    width: 80px;
+    background-color: #333;
+    bottom: 0;
+  }
+}

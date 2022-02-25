@@ -1,0 +1,39 @@
+$color: rgb(35, 11, 122);
+$color-volanta: #0250c9;
+$main-font: 'SuecaSlab', Georgia, 'serif';
+$marque-font: Arial;
+$card-title: 18px;
+
+/* General Styles */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  font-family: $main-font;
+}
+
+a {
+  text-decoration: none;
+  font-size: inherit;
+  color: #333;
+}

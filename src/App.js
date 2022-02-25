@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import RenderDos from './components/renders/RenderDos';
+import RenderTres from './components/renders/RenderTres';
+import RenderUno from './components/renders/RenderUno';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App-header">
+      <RenderUno />
+      <br />
+      <br />
+      <RenderDos />
+      <br />
+      <br />
+      <RenderTres />
+      <br />
+      <br />
     </div>
   );
 }
