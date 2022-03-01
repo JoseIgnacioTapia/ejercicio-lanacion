@@ -13,7 +13,7 @@ html {
 *,
 *:before,
 *:after {
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
 
 body,
@@ -32,8 +32,17 @@ ul {
   font-family: $main-font;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 a {
   text-decoration: none;
   font-size: inherit;
   color: #333;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
 }
