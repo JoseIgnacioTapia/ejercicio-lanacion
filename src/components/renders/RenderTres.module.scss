@@ -1,8 +1,9 @@
 @import '../../index.scss';
 
 .card {
-  width: auto;
+  width: 90%;
   height: auto;
+  margin: 0 auto;
   border: 1px solid rgba(204, 204, 204, 1);
   padding: 16px;
   display: flex;
@@ -12,13 +13,17 @@
   text-align: center;
   position: relative;
 
-  h2 {
-    font-size: 24px;
-    font-weight: bold;
+  section {
+    margin-bottom: 1rem;
 
-    em {
-      color: $color-volanta;
-      display: inline;
+    h2 {
+      font-size: 24px;
+      font-weight: bold;
+
+      em {
+        color: $color-volanta;
+        display: inline;
+      }
     }
   }
 

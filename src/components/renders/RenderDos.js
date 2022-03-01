@@ -5,8 +5,8 @@ const RenderDos = () => {
     <figure className={classes.card}>
       <blockquote className="">
         <a href="#">
-          <em>Análisis. </em>Lorem ipsum dolor sit amet, consectetur adipisicing
-          elit
+          <em>Análisis. </em>Title esto es un titulo de la novedad con unas
+          cuantas lineas que ocupar
         </a>
       </blockquote>
       <figcaption className="">
