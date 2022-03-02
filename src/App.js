@@ -2,6 +2,7 @@ import './App.scss';
 import RenderDos from './components/renders/RenderDos';
 import RenderTres from './components/renders/RenderTres';
 import RenderUno from './components/renders/RenderUno';
+import { noticiaUno, noticiaDos } from './db';
 
 function App() {
   return (
@@ -14,14 +15,14 @@ function App() {
         </section>
         <div className="modulo__body">
           <div className="modulo__body-area modulo__body-area_one">
-            <RenderUno />
+            <RenderUno noticia={noticiaUno} />
           </div>
           <div className="modulo__body-area modulo__body-area_two">
-            <RenderDos />
-            <RenderDos />
+            <RenderDos noticia={noticiaDos} />
+            <RenderDos noticia={noticiaDos} />
           </div>
           <div className="modulo__body-area modulo__body-area_three">
-            <RenderTres />
+            <RenderTres noticia={noticiaUno} />
           </div>
           <div></div>
         </div>

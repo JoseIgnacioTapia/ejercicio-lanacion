@@ -1,22 +1,23 @@
 import classes from './RenderTres.module.scss';
 
-const RenderTres = () => {
+const RenderTres = ({ noticia }) => {
+  const { volanta, author, title, articleUrl, authorUrl, authorImg } = noticia;
+
   return (
     <article className={classes.card}>
       <section>
         <h2>
-          <a href="#">
-            <em>Lead.</em> Title cuando se dieron cuenta, los dos hermanos
-            estaban preparándose para alunizar.
+          <a href={articleUrl}>
+            {volanta ? <em>{volanta}. </em> : null} {title}
           </a>
         </h2>
       </section>
       <figcaption>
-        <img src="" alt="" />
+        {authorImg ? (
+          <img src={authorImg} alt="Author" className="author__photo" />
+        ) : null}
         <div className={classes.author}>
-          <strong>
-            <a href="#">Author full name</a>
-          </strong>
+          <strong>{authorUrl ? <a href={authorUrl}>{author}</a> : null}</strong>
         </div>
       </figcaption>
       <div className={classes.border}></div>

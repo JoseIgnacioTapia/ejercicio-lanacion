@@ -1,19 +1,23 @@
 import classes from './RenderDos.module.scss';
 
-const RenderDos = () => {
+const RenderDos = ({ noticia }) => {
+  const { volanta, author, title, articleUrl, authorUrl, authorImg } = noticia;
+
   return (
     <figure className={classes.card}>
-      <blockquote className="">
-        <a href="#">
-          <em>Análisis. </em>Title esto es un titulo de la novedad con unas
-          cuantas lineas que ocupar
+      <blockquote>
+        <a href={articleUrl}>
+          {volanta ? <em>{volanta}. </em> : null}
+          {title}
         </a>
       </blockquote>
-      <figcaption className="">
-        <img src="#" alt="Author" className="author__photo" />
-        <div className="">
+      <figcaption>
+        {authorImg ? (
+          <img src={authorImg} alt="Author" className="author__photo" />
+        ) : null}
+        <div>
           <strong>
-            <a href="#">Author full name</a>
+            <a href={authorUrl}>{author}</a>
           </strong>
         </div>
       </figcaption>

@@ -1,21 +1,23 @@
 import classes from './RenderUno.module.scss';
 
-const RenderUno = () => {
+const RenderUno = ({ noticia }) => {
   return (
     <article className={classes.card}>
       <figure>
-        <img src="#" alt="Title" />
+        {noticia.articleImg ? (
+          <img src={noticia.articleImg} alt={noticia.title} />
+        ) : null}
       </figure>
       <section>
         <h2>
-          <a href="#">
-            <em>Volanta.</em> Esto es un titulo de la novedad con unas cuantas
-            lineas que ocupar, esto es un titulo de la novedad
+          <a href={noticia.articleUrl}>
+            {noticia.volanta ? <em>{noticia.volanta}</em> : null}{' '}
+            {noticia.title}
           </a>
         </h2>
         <div>
           <strong>
-            <a href="#">Marquee / Author</a>
+            <a href={noticia.authorUrl}>{noticia.author}</a>
           </strong>
         </div>
       </section>
