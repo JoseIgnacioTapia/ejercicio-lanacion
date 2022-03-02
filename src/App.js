@@ -13,14 +13,14 @@ function App() {
           </h3>
         </section>
         <div className="modulo__body">
-          <div className="modulo__body-area">
+          <div className="modulo__body-area modulo__body-area_one">
             <RenderUno />
           </div>
-          <div className="modulo__body-area">
+          <div className="modulo__body-area modulo__body-area_two">
             <RenderDos />
             <RenderDos />
           </div>
-          <div className="modulo__body-area">
+          <div className="modulo__body-area modulo__body-area_three">
             <RenderTres />
           </div>
           <div></div>
