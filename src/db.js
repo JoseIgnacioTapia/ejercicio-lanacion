@@ -15,7 +15,7 @@ export const noticiaUno = {
 export const noticiaDos = {
   volanta: 'Análisis',
   author: 'Claudio Jacquelin',
-  title: 'Un discruso de campaña y autocelebrado',
+  title: 'Muchos objetivos voluntaristas sin recursos ni plan para cumplirlos',
   articleUrl:
     'https://www.lanacion.com.ar/politica/un-discurso-de-campana-y-autocelebratorio-nid01032022/',
   authorUrl:

@@ -3,9 +3,10 @@ $color-volanta: #0250c9;
 $main-font: 'SuecaSlab', Georgia, 'serif';
 $marque-font: Arial;
 $card-title: 18px;
+$card-title-desk: 24px;
 $bp-mob: 320px;
 $bp-tab: 768px;
-$bp-desk: 1920px;
+$bp-desk: 961px;
 
 /* General Styles */
 html {
@@ -37,6 +38,7 @@ ul {
 
 body {
   overflow-x: hidden;
+  max-width: 1281px;
 }
 
 a {

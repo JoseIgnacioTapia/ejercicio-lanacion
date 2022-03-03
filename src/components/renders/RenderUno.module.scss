@@ -25,6 +25,11 @@
       display: block;
       font-size: $card-title;
 
+      @media only screen and (min-width: $bp-desk) {
+        font-size: $card-title-desk;
+        font-weight: bold;
+      }
+
       em {
         color: $color-volanta;
         display: inline;

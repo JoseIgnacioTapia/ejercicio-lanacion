@@ -1,0 +1,112 @@
+{
+  "articulos": [
+    {
+      "id": 1,
+      "volanta": "En La Rioja.",
+      "titulo": "En el acto de inicio de clases, un alumno le preguntó al Presidente \"por qué rompió la cuarentena\"",
+      "urlNota": "https://www.lanacion.com.ar/politica/la-rioja-un-alumno-le-pregunto-al-presidente-por-que-rompio-la-cuarentena-nid02032022/",
+      "nombreAutor": "Gabriela Origlia",
+      "imagenNota": "https://resizer.glanacion.com/resizer/DuxGPjeKQRHY-GSo2-6vZCSFidg=/298x200/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/W2AYY5634FAKRIVT7I72KINU44.JPG"
+    },
+    {
+      "id": 2,
+      "volanta": "Un agujero en las estadísticas.",
+      "titulo": "Aún no se puede conocer qué vacunas tenían los internados y muertos por Covid-19",
+      "urlNota": "https://www.lanacion.com.ar/sociedad/incognita-estadistica-aun-no-se-puede-conocer-que-vacunas-tenian-los-internados-y-muertos-por-covid-nid02032022/",
+      "nombreAutor": "Fabiola Czubaj y Delfina Arambillet",
+      "imagenNota": "https://resizer.glanacion.com/resizer/OA-dssQSbDSHJ20Bz2VIaS2bqVo=/298x200/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/QHZBA2JKUFHC7INA2Z3Y5SIVKY.jpg"
+    },
+    {
+      "id": 3,
+      "volanta": "Tecnología.",
+      "titulo": "Bill Gates reveló qué dispositivo reemplazará a los celulares en el futuro",
+      "urlNota": "https://www.lanacion.com.ar/lifestyle/bill-gates-revelo-que-dispositivo-reemplazara-a-los-celulares-en-el-futuro-nid02032022/",
+      "imagenNota": "https://resizer.glanacion.com/resizer/d_F8v8oCAxLzg391jBy9FoeoSrA=/298x200/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/EJTRO7KQNJAIRPQLWKNJYFIR5U.jpg"
+    },
+    {
+      "id": 4,
+      "volanta": "Rusia y Ucrania.",
+      "titulo": "“Presión inflacionaria”: la advertencia de un informe del agro por el conflicto armado",
+      "urlNota": "https://www.lanacion.com.ar/economia/campo/presion-inflacionaria-la-advertencia-de-un-informe-del-agro-por-el-conflicto-armado-nid02032022/"
+    },
+    {
+      "id": 5,
+      "volanta": "Nueva denuncia.",
+      "titulo": "Hisopados VIP: desplazan a la titular del organismo donde se desviaron los test",
+      "urlNota": "https://www.lanacion.com.ar/sociedad/hisopados-vip-desplazan-a-la-titular-del-organismo-donde-se-desviaron-los-test-nid02032022/",
+      "nombreAutor": "José María Costa"
+    },
+    {
+      "id": 6,
+      "volanta": "Golpe de timón.",
+      "titulo": "Eltrece cambia sus tardes en medio de una fuerte crisis de rating",
+      "urlNota": "https://www.lanacion.com.ar/espectaculos/television/golpe-de-timon-eltrece-cambia-sus-tardes-en-medio-de-una-fuerte-crisis-de-rating-nid02032022/",
+      "nombreAutor": "Pablo Montagna"
+    },
+    {
+      "id": 7,
+      "volanta": "Impacto de la invasión.",
+      "titulo": "La guerra de Putin en Ucrania abre frentes de batalla dentro de Rusia",
+      "urlNota": "https://www.lanacion.com.ar/el-mundo/guerra-rusia-ucrania-el-conflicto-de-vladimir-putin-abre-frentes-de-batalla-en-la-sociedad-rusa-nid02032022/",
+      "nombreAutor": "The Washington Post"
+    },
+    {
+      "id": 8,
+      "volanta": "Ola de estafas.",
+      "titulo": "Durante el fin de semana 68 usuarios de Ualá descubrieron que su cuenta estaba vacía",
+      "urlNota": "https://www.lanacion.com.ar/economia/durante-el-fin-de-semana-68-usuarios-de-uala-descubrieron-que-su-cuenta-estaba-vacia-nid02032022/",
+      "nombreAutor": "Melisa Reinhold",
+      "imagenAutor": "https://www.lanacion.com.ar/economia/durante-el-fin-de-semana-68-usuarios-de-uala-descubrieron-que-su-cuenta-estaba-vacia-nid02032022/"
+    },
+    {
+      "id": 9,
+      "volanta": "Evitado por las royals.",
+      "titulo": "El atrevido recurso con el que Máxima le pone rock and roll a su estilo",
+      "urlNota": "https://www.lanacion.com.ar/lifestyle/el-atrevido-recurso-con-el-que-maxima-de-holanda-le-pone-rock-and-roll-a-su-estilo-nid02032022/",
+      "nombreAutor": "Paula Ikeda"
+    },
+    {
+      "id": 10,
+      "volanta": "Lollapalooza 2022.",
+      "titulo": "Todos los horarios del festival que se realizará del 18 al 20 de marzo en el Hipódromo de San Isidro",
+      "urlNota": "https://www.lanacion.com.ar/espectaculos/musica/lollapalooza-2022-todos-los-horarios-del-festival-que-se-realizara-del-18-al-20-de-marzo-en-el-nid02032022/"
+    },
+    {
+      "id": 11,
+      "volanta": "“No quería trabajar más”.",
+      "titulo": "El personal de salud que pateó el tablero, a dos años del primer caso de Covid",
+      "urlNota": "https://www.lanacion.com.ar/sociedad/no-queria-trabajar-mas-el-personal-de-salud-que-pateo-el-tablero-a-dos-anos-del-primer-caso-de-covid-nid02032022/",
+      "nombreAutor": "Silvina Vitale",
+      "urlAutor": "https://www.lanacion.com.ar/sociedad/no-queria-trabajar-mas-el-personal-de-salud-que-pateo-el-tablero-a-dos-anos-del-primer-caso-de-covid-nid02032022/"
+    },
+    {
+      "id": 12,
+      "volanta": "Escándalo en Boca.",
+      "titulo": "\"No se aguantaba más\": la durísima crítica de Benedetto a Almendra y la respuesta del volante",
+      "urlNota": "https://www.lanacion.com.ar/deportes/futbol/boca-en-llamas-como-nunca-antes-dario-benedetto-critico-con-dureza-a-almendra-y-defendio-a-battaglia-nid01032022/"
+    },
+    {
+      "id": 13,
+      "volanta": "“Esto no es una comida...”.",
+      "titulo": "Robert De Niro probó el “menú impagable” del chef argentino, Mauro Colagreco",
+      "urlNota": "https://www.lanacion.com.ar/espectaculos/personajes/robert-de-niro-probo-el-menu-impagable-del-chef-argentino-mauro-colagreco-esto-no-es-una-comida-nid02032022/",
+      "imagenNota": "https://resizer.glanacion.com/resizer/Y4BibBOTrLb15-agqexhTrnu5-E=/298x200/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/CYT4UD6BGZHA3AAEHQ5UZ5AYTE.jpg"
+    },
+    {
+      "id": 14,
+      "volanta": "¿Qué veo?",
+      "titulo": "Netflix: los estrenos de películas en marzo de 2022",
+      "urlNota": "https://www.lanacion.com.ar/espectaculos/cine/netflix-los-estrenos-de-peliculas-en-marzo-de-2022-nid02032022/",
+      "nombreAutor": " Milagros Amondaray",
+      "imagenNota": "https://resizer.glanacion.com/resizer/IjPQMyqmwo_EGMvy4ZmNb8zwI74=/298x200/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/SFII6XCV4NGJTCAWCIHZ2C3AOU.jpg"
+    },
+    {
+      "id": 15,
+      "volanta": "Robo en el Museo de Arte Decorativo.",
+      "titulo": "Desaparecieron jarrones, cristales y óleos del siglo XVII, entre otras piezas históricas",
+      "urlNota": "https://www.lanacion.com.ar/cultura/robo-hormiga-en-el-museo-nacional-de-arte-decorativo-investigan-la-desaparicion-de-varias-piezas-nid02032022/",
+      "nombreAutor": "María Paula Zacharías",
+      "imagenAutor": "https://resizer.glanacion.com/resizer/C1zDUSOlwSro2Oo86uOJI1WCsGY=/298x200/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/UMQ733WNFNBTVC2BUCG6KK37OU.JPG"
+    }
+  ]
+}
